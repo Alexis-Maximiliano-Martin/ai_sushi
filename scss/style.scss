@@ -1,0 +1,1501 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sweet Romance';
+}
+
+/*tipografia*/
+
+@font-face{
+    font-family: 'Sweet Romance';
+    src: url(../font/Sweet\ Romance.otf);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:blanchedalmond;
+}
+
+h1{
+    color: rgb(255, 255, 255) !important;
+    font-size: 60px;
+    font-family: 'Sweet Romance';
+    background-color: #ea0000;
+}
+
+/* header.cabecera{
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.img-medium{
+    width: 500px;
+
+}
+.box{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 300px;
+    border: 20px solid red;
+    padding-left: 10px;
+    padding: 10px 12px 8px 20px;
+    overflow: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav.navbar{
+    background-color: #ea0000 !important;
+
+}
+.fondo{
+
+    background-image: url(../img/WhatsApp\ Image\ 2023-06-12\ at\ 22.27.24.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.navbar ul li a{
+    color: rgb(255, 255, 255);   
+
+}
+.navbar-brand{ 
+    color: rgb(255, 255, 255) !important; 
+}
+.container text-center{
+    padding: 100px 100px;
+}
+.contenedor-padre{
+    background-color: rgb(19, 18, 18);
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    /* display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; */
+    gap: 10px 20px; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70px 400px 70px 400px 70px 400px repeat(3, 095px);
+    grid-gap: 50px;
+    justify-content: center;
+    row-gap: 10px;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    column-gap: 5px;
+    grid-template-areas: 
+    "bgc bch"
+    "mgc mch"
+    "bmp bci"
+    "mmp mci"
+    "bsj ."
+    "msj .";
+    align-items: center;
+    margin: auto;
+    
+    
+}
+
+a{
+    font-size: 40px;
+    color: black;
+    justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     
+}
+.botonlocal a{
+    justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: aliceblue;
+     font-size: 40px;
+     border: 1.2px solid;
+     border-radius: 10px;
+    
+
+}
+.botonlocal{
+    border: 1.2px solid;
+    border-radius: 10px;
+
+}
+iframe{
+    width: 90%;
+    border-radius: 10px;
+    margin: 1.2px;
+    border: 1.2px solid;
+    border-radius: 10px;
+}
+.bgc{
+    grid-area: bgc;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.bch{
+    grid-area: bch;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.mgc{
+    grid-area: mgc;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mch{
+    grid-area: mch;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.bmp{
+    grid-area: bmp;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.bci{
+    grid-area: bci;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.mmp{
+    grid-area: mmp;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.mci{
+    grid-area: mci;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.bsj{
+    grid-area: bsj;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.msj{
+    grid-area: msj;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    width: 40px;
+    height: 40px;
+
+}
+ 
+ button a{
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+ }
+ svg{
+    width: 30px;
+    height: 30px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 70px 40px repeat(7, 95px);
+    row-gap: 10px;
+    background-color:blanchedalmond;
+    column-gap: 5px;
+    grid-template-areas: 
+    "titulo titulo titulo titulo titulo titulo titulo"
+    "nada nada nada nada nada precio efectivo"
+    "prodcutos prodcutos prodcutos prodcutos foto pg pge"
+    "nisal nisal nisal nisal fotonisal pgnisal pgenisal"
+    "nian nian nian nian fotonian pgniam pgeniam"
+    "sashi sashi sashi sashi fotosashi psashi pesashi"
+    "langos langos langos langos fotolango plango pelango"
+    "gei gei gei gei fotogei pgei pegei"
+    "arrov arrov arrov arrov fotoarrov parrov pearrov"
+    "arroc arroc arroc arroc fotoarroc parroc pearroc"
+    "rab rab rab rab fotorab prab perab"
+    "bm bm bm bm fotobm pbm pebm"
+    "sap sap sap sap sap sap sap"
+    "ce ce ce ce fotoce pce pece"
+    "xl xl xl xl fotoxl pxl pexl"
+    "goca goca goca goca fotogoca pgoca pegoca"
+    "gosa gosa gosa gosa fotogosa pgosa pegosa"
+    "gola gola gola gola fotogola pgola pegola"
+    "salad salad salad salad fotosalad psalad pesalad"
+    "pollot pollot pollot pollot fotopollot ppollot pepollot"
+    "ww ww ww ww ww ww ww"
+    "wv wv wv wv fotowv pwv pewv"
+    "wc wc wc wc fotowc pwc pewc"
+    "wp wp wp wp fotowp pwp pewp"
+    "tb tb tb tb tb tb tb"
+    "tv tv tv tv fototv . ."
+    ". v15 v15 v15 v15 pv15 pev15"
+    ". v30 v30 v30 v30 pv30 pev30"
+    ". v45 v45 v45 v45 pv45 pev45";
+}
+.titulo{
+    grid-area: titulo;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 50px;
+/*     background-color: blanchedalmond; */
+    border: 1.2px solid;
+    border-radius: 10px;
+}
+.productos{
+    grid-area: prodcutos;
+   border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+
+
+
+}
+p{
+    margin: 0px 50px 50px 30px;
+
+
+}
+h2{
+    margin: 10px;
+    font-size: 25px;
+}
+.foto{
+    grid-area: foto;
+    background-image: url(../img/Niguiris\ de\ palta\ 4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+
+}
+.precio{
+    grid-area: precio;
+/*     border: 1.2px  solid; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 30px;;
+    align-items: center;
+}
+.efectivo{
+    grid-area: efectivo;
+    /* border: 1.2px  solid; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 30px;
+    align-items: center;
+}
+.pge{
+    grid-area: pge;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+
+
+}
+.pg{
+    grid-area: pg;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+    
+}
+.nisal{
+    grid-area: nisal;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+
+}
+.fotonisal{
+    grid-area: fotonisal;
+    background-image: url(../img/NIGUIRIS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pgnisal{
+    grid-area: pgnisal;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pgenisal{
+    grid-area: pgenisal;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.nian{
+    grid-area: nian;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+} 
+.fotonian{
+    grid-area: fotonian;
+    background-image: url(../img/Niguiris\ Anticuchero\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pgniam{
+    grid-area: pgniam;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    text-decoration: none;
+    height: 100px;
+    align-items: center;
+   border-radius: 10px;
+} 
+.pgeniam{
+    grid-area: pgeniam;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+    }
+.sashi{
+    grid-area: sashi;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotosashi{
+    grid-area: fotosashi;
+    background-image: url(../img/sashimis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.psashi{
+    grid-area: psashi;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pesashi{
+    grid-area: pesashi;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.langos{
+    grid-area: langos;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotolango{
+    grid-area: fotolango;
+    background-image: url(../img/langos\ apa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.plango{
+    grid-area: plango;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pelango{
+    grid-area: pelango;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.gei{
+    grid-area: gei;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotogei{
+    grid-area: fotogei;
+    background-image: url(../img/geishas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pgei{
+    grid-area: pgei;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pegei{
+    grid-area: pegei;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.arrov{
+    grid-area: arrov;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotoarrov{
+    grid-area: fotoarrov;
+    background-image: url(../img/Arrolladito\ primavera.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.parrov{
+    grid-area: parrov;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pearrov{
+    grid-area: pearrov;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.arroc{
+    grid-area: arroc;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotoarroc{
+    grid-area: fotoarroc;
+    background-image: url(../img/Arrolladito\ primavera.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.parroc{
+    grid-area: parroc;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pearroc{
+    grid-area: pearroc;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.rab{
+    grid-area: rab;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotorab{
+    grid-area: fotorab;
+    background-image: url(../img/rabas.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.prab{
+    grid-area: prab;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.perab{
+    grid-area: perab;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.bm{
+    grid-area: bm;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotobm{
+    grid-area: fotobm;
+    background-image: url(../img/Bmm.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pbm{
+    grid-area: pbm;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pebm{
+    grid-area: pebm;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.sap{
+    grid-area: sap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 50px;
+/*     background-color: blanchedalmond; */
+    border: 1.2px solid;
+    border-radius: 10px
+}
+.ce{
+    grid-area: ce;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotoce{
+    grid-area: fotoce;
+    background-image: url(../img/ceviche.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pce{
+    grid-area: pce;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pece{
+    grid-area: pece;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.xl{
+    grid-area: xl;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotoxl{
+    grid-area: fotoxl;
+    background-image: url(../img/xl.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pxl{
+    grid-area: pxl;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pexl{
+    grid-area: pexl;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.goca{
+    grid-area: goca;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotogoca{
+    grid-area: fotogoca;
+    background-image: url(../img/AiSushi-gohan\ camarón.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pgoca{
+    grid-area: pgoca;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pegoca{
+    grid-area: pegoca;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.gosa{
+    grid-area: gosa;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotogosa{
+    grid-area: fotogosa;
+    background-image: url(../img/AiSushi-gohan\ salmon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pgosa{
+    grid-area: pgosa;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pegosa{
+    grid-area: pegosa;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.gola{
+    grid-area: gola;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotogola{
+    grid-area: fotogola;
+    background-image: url(../img/AiSushi-gohan\ langostino.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pgola{
+    grid-area: pgola;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pegola{
+    grid-area: pegola;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.salad{
+    grid-area: salad;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+    /* overflow: scroll; */
+}
+.fotosalad{
+    grid-area: fotosalad;
+    background-image: url(../img/AiSushi-salads\ camarón\ salmón.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.psalad{
+    grid-area: psalad;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pesalad{
+    grid-area: pesalad;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pollot{
+grid-area: pollot;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.fotopollot{
+    grid-area: fotopollot;
+    background-image: url(../img/AiSushi-Salads\ pollo\ teriyaki.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.ppollot{
+    grid-area: ppollot;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pepollot{
+    grid-area: pepollot;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.ww{
+    grid-area: ww;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 50px;
+/*     background-color: blanchedalmond; */
+    border: 1.2px solid;
+    border-radius: 10px;
+}
+.wv{
+    grid-area: wv;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotowv{
+    grid-area: fotowv;
+    background-image: url(../img/wok\ vegi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pwv{
+    grid-area: pwv;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pewv{
+    grid-area: pewv;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.wc{
+    grid-area: wc;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotowc{
+    grid-area: fotowc;
+    background-image: url(../img/wok\ cam.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pwc{
+    grid-area: pwc;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pewc{
+    grid-area: pewc;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.wp{
+    grid-area: wp;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fotowp{
+    grid-area: fotowp;
+    background-image: url(../img/wok\ pollo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.pwp{
+    grid-area: pwp;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pewp{
+    grid-area: pewp;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 100px;
+     align-items: center;
+    border-radius: 10px;
+}
+.tb{
+    grid-area: tb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 50px;
+/*     background-color: blanchedalmond; */
+    border: 1.2px solid;
+    border-radius: 10px;
+}
+.tv{
+    grid-area: tv;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 100px;
+    border-radius: 10px;
+}
+.fototv{
+    grid-area: fototv;
+    background-image: url(../img/Tabla\ Veggie\ 5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 100px;
+    border: 1.2px  solid;
+    border-radius: 10px;
+}
+.v15{
+    grid-area: v15;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 80px;
+    border-radius: 10px;
+}
+.pv15{
+    grid-area: pv15;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 80px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pev15{
+    grid-area: pev15;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 80px;
+     align-items: center;
+    border-radius: 10px;
+}
+.v30{
+    grid-area: v30;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 80px;
+    border-radius: 10px;
+}
+.pv30{
+    grid-area: pv30;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 80px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pev30{
+    grid-area: pev30;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 80px;
+     align-items: center;
+    border-radius: 10px;
+}
+.v45{
+    grid-area: v45;
+    border: 1.2px  solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    height: 80px;
+    border-radius: 10px;
+}
+.pv45{
+    grid-area: pv45;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 80px;
+     align-items: center;
+    border-radius: 10px;
+}
+.pev45{
+    grid-area: pev45;
+    border: 1.2px  solid;
+     display: flex;
+     flex-direction: column; 
+     justify-content: space-around;
+     text-decoration: none;
+     /* background-color: blanchedalmond; */
+     height: 80px;
+     align-items: center;
+    border-radius: 10px;
+}
+body .galeria{
+    background-color:blanchedalmond;
+}
+.data-bs-slide-to{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#carouselExample{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 550px; */
+    background-color:blanchedalmond;
+    /* background-attachment: fixed;   */ 
+}
+.d-block{
+    /* background-attachment: fixed;  */
+    /* width: 500px;  */ 
+    
+}
+.clearfix h4{
+    display: flex;
+    font-size: 95px;
+    justify-content: center;
+    align-items: center;
+
+}
+.clearfix img{
+    width: 330px;
+    border-radius: 10px;
+}
+.clearfix{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tama{
+    width: 100%;
+    justify-content: center;
+     align-items: center;
+}
+.fonde{
+    width: 100%;
+    height: 100%;
+}
+.clearfix{
+    margin: 50px 200px;
+    
+}
+.clearfix p{
+    font-size: 30px;
+}
+@media (min-width: 465px){
+    .fonde{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .tama{
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+@media (max-width: 992px){
+    .tama{
+        width: 100%;
+        
+    }
+    .clearfix{
+        margin: 20px 100px;
+    }
+}
