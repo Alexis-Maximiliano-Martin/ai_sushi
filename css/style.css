@@ -1069,7 +1069,7 @@ h2 {
   justify-content: space-between;
   text-decoration: none;
   /* background-color: blanchedalmond; */
-  height: 100px;
+  height: 120px;
   border-radius: 10px;
   /* overflow: scroll; */
 }
@@ -1081,7 +1081,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   width: 180px;
-  height: 100px;
+  height: 120px;
   border: 1.2px solid;
   border-radius: 10px;
 }
@@ -1094,7 +1094,7 @@ h2 {
   justify-content: space-around;
   text-decoration: none;
   /* background-color: blanchedalmond; */
-  height: 100px;
+  height: 120px;
   align-items: center;
   border-radius: 10px;
 }
@@ -1107,7 +1107,7 @@ h2 {
   justify-content: space-around;
   text-decoration: none;
   /* background-color: blanchedalmond; */
-  height: 100px;
+  height: 120px;
   align-items: center;
   border-radius: 10px;
 }
@@ -1559,6 +1559,10 @@ body .galeria {
   }
   .clearfix {
     margin: 20px 100px;
+  }
+  .grid p{
+    font-size: 13px;
+
   }
 }
 
