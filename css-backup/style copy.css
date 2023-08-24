@@ -6,6 +6,7 @@
   font-family: "Sweet Romance";
 }
 
+/*tipografia*/
 @font-face {
   font-family: "Sweet Romance";
   src: url(../font/Sweet\ Romance.otf);
@@ -22,6 +23,13 @@ h1 {
   background-color: #ea0000;
 }
 
+/* header.cabecera{
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 .img-medium {
   width: 500px;
 }
@@ -67,6 +75,11 @@ nav.navbar {
   height: 100%;
   width: 100%;
   padding: 50px;
+  /* display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; */
   gap: 10px 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -251,24 +264,21 @@ svg {
   justify-content: space-around;
   text-decoration: none;
   font-size: 50px;
+  /*     background-color: blanchedalmond; */
   border: 1.2px solid;
   border-radius: 10px;
 }
 
-.productos, .v45, .v30, .v15, .tv, .wp, .wc, .wv, .pollot, .salad, .gola, .gosa, .goca, .xl, .ce, .bm, .rab, .arroc, .arrov, .gei, .langos, .sashi, .nian, .nisal {
+.productos {
   grid-area: prodcutos;
   border: 1.2px solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
+  /* background-color: blanchedalmond; */
   height: 100px;
   border-radius: 10px;
-  overflow: scroll;
-}
-
-div::-webkit-scrollbar {
-  display: none;
 }
 
 p {
@@ -294,31 +304,36 @@ h2 {
 
 .precio {
   grid-area: precio;
+  /*     border: 1.2px  solid; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
+  /* background-color: blanchedalmond; */
   height: 30px;
   align-items: center;
 }
 
 .efectivo {
   grid-area: efectivo;
+  /* border: 1.2px  solid; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
+  /* background-color: blanchedalmond; */
   height: 30px;
   align-items: center;
 }
 
-.pge, .pev45, .pv45, .pev30, .pv30, .pev15, .pv15, .pewp, .pwp, .pewc, .pwc, .pewv, .pwv, .pepollot, .ppollot, .pesalad, .psalad, .pegola, .pgola, .pegosa, .pgosa, .pegoca, .pgoca, .pexl, .pxl, .pece, .pce, .pebm, .pbm, .perab, .prab, .pearroc, .parroc, .pearrov, .parrov, .pegei, .pgei, .pelango, .plango, .pesashi, .psashi, .pgeniam, .pgniam, .pgenisal, .pgnisal, .pg {
+.pge {
   grid-area: pge;
   border: 1.2px solid;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-decoration: none;
+  /* background-color: blanchedalmond; */
   height: 100px;
   align-items: center;
   border-radius: 10px;
@@ -326,10 +341,27 @@ h2 {
 
 .pg {
   grid-area: pg;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .nisal {
   grid-area: nisal;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotonisal {
@@ -346,14 +378,39 @@ h2 {
 
 .pgnisal {
   grid-area: pgnisal;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pgenisal {
   grid-area: pgenisal;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .nian {
   grid-area: nian;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotonian {
@@ -370,14 +427,38 @@ h2 {
 
 .pgniam {
   grid-area: pgniam;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pgeniam {
   grid-area: pgeniam;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .sashi {
   grid-area: sashi;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotosashi {
@@ -394,14 +475,40 @@ h2 {
 
 .psashi {
   grid-area: psashi;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pesashi {
   grid-area: pesashi;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .langos {
   grid-area: langos;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotolango {
@@ -418,14 +525,40 @@ h2 {
 
 .plango {
   grid-area: plango;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pelango {
   grid-area: pelango;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .gei {
   grid-area: gei;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotogei {
@@ -442,14 +575,40 @@ h2 {
 
 .pgei {
   grid-area: pgei;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pegei {
   grid-area: pegei;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .arrov {
   grid-area: arrov;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotoarrov {
@@ -466,14 +625,40 @@ h2 {
 
 .parrov {
   grid-area: parrov;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pearrov {
   grid-area: pearrov;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .arroc {
   grid-area: arroc;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotoarroc {
@@ -490,14 +675,40 @@ h2 {
 
 .parroc {
   grid-area: parroc;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pearroc {
   grid-area: pearroc;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .rab {
   grid-area: rab;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotorab {
@@ -514,14 +725,40 @@ h2 {
 
 .prab {
   grid-area: prab;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .perab {
   grid-area: perab;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .bm {
   grid-area: bm;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotobm {
@@ -538,10 +775,28 @@ h2 {
 
 .pbm {
   grid-area: pbm;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pebm {
   grid-area: pebm;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .sap {
@@ -558,6 +813,14 @@ h2 {
 
 .ce {
   grid-area: ce;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotoce {
@@ -574,14 +837,40 @@ h2 {
 
 .pce {
   grid-area: pce;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pece {
   grid-area: pece;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .xl {
   grid-area: xl;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotoxl {
@@ -598,14 +887,40 @@ h2 {
 
 .pxl {
   grid-area: pxl;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pexl {
   grid-area: pexl;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .goca {
   grid-area: goca;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotogoca {
@@ -622,14 +937,40 @@ h2 {
 
 .pgoca {
   grid-area: pgoca;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pegoca {
   grid-area: pegoca;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .gosa {
   grid-area: gosa;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotogosa {
@@ -646,14 +987,40 @@ h2 {
 
 .pgosa {
   grid-area: pgosa;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pegosa {
   grid-area: pegosa;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .gola {
   grid-area: gola;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotogola {
@@ -670,14 +1037,41 @@ h2 {
 
 .pgola {
   grid-area: pgola;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pegola {
   grid-area: pegola;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .salad {
   grid-area: salad;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 120px;
+  border-radius: 10px;
+  /* overflow: scroll; */
 }
 
 .fotosalad {
@@ -694,14 +1088,41 @@ h2 {
 
 .psalad {
   grid-area: psalad;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 120px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pesalad {
   grid-area: pesalad;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 120px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pollot {
   grid-area: pollot;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
+  /* overflow: hidden; */
 }
 
 .fotopollot {
@@ -718,10 +1139,28 @@ h2 {
 
 .ppollot {
   grid-area: ppollot;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pepollot {
   grid-area: pepollot;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .ww {
@@ -731,12 +1170,21 @@ h2 {
   justify-content: space-around;
   text-decoration: none;
   font-size: 50px;
+  /*     background-color: blanchedalmond; */
   border: 1.2px solid;
   border-radius: 10px;
 }
 
 .wv {
   grid-area: wv;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotowv {
@@ -753,14 +1201,40 @@ h2 {
 
 .pwv {
   grid-area: pwv;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pewv {
   grid-area: pewv;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .wc {
   grid-area: wc;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotowc {
@@ -777,14 +1251,40 @@ h2 {
 
 .pwc {
   grid-area: pwc;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pewc {
   grid-area: pewc;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .wp {
   grid-area: wp;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fotowp {
@@ -801,10 +1301,28 @@ h2 {
 
 .pwp {
   grid-area: pwp;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pewp {
   grid-area: pewp;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .tb {
@@ -814,12 +1332,21 @@ h2 {
   justify-content: space-around;
   text-decoration: none;
   font-size: 50px;
+  /*     background-color: blanchedalmond; */
   border: 1.2px solid;
   border-radius: 10px;
 }
 
 .tv {
   grid-area: tv;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  border-radius: 10px;
 }
 
 .fototv {
@@ -836,38 +1363,116 @@ h2 {
 
 .v15 {
   grid-area: v15;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  border-radius: 10px;
 }
 
 .pv15 {
   grid-area: pv15;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pev15 {
   grid-area: pev15;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .v30 {
   grid-area: v30;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  border-radius: 10px;
 }
 
 .pv30 {
   grid-area: pv30;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pev30 {
   grid-area: pev30;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .v45 {
   grid-area: v45;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  border-radius: 10px;
 }
 
 .pv45 {
   grid-area: pv45;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .pev45 {
   grid-area: pev45;
+  border: 1.2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  /* background-color: blanchedalmond; */
+  height: 80px;
+  align-items: center;
+  border-radius: 10px;
 }
 
 body .galeria {
@@ -955,8 +1560,9 @@ body .galeria {
   .clearfix {
     margin: 20px 100px;
   }
-  .grid p {
+  .grid p{
     font-size: 13px;
+
   }
 }
 
